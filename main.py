@@ -9,15 +9,15 @@ import math
 view = [0,
         0,
         1];
-ambient = [50,
-           50,
-           50]
+ambient = [255,
+           255,
+           150]
 light = [[0.5,
-          0.75,
+          0.9,
           1],
-         [0,
+         [255,
           255,
-          255]]
+          150]]
 areflect = [0.1,
             0.1,
             0.1]
@@ -32,7 +32,7 @@ sreflect = [0.5,
 
 screen = new_screen()
 zbuffer = new_zbuffer()
-color = [ 0, 255, 0 ]
+color = [ 150, 255, 0 ]
 edges = []
 polygons = []
 t = new_matrix()
